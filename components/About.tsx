@@ -11,10 +11,12 @@ const About = () => {
 					</h1>
 					<div className='mt-6 text-gray-800 dark:text-white'>
 						<p className='mb-4'>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
-							natus voluptatem necessitatibus rem voluptas ut porro dolorem
-							earum reprehenderit enim sed incidunt repudiandae excepturi!
-							Accusamus corporis aliquid totam quod ab.
+							I'm Hiago, software developer for over 4 years, always looking to
+							innovate and learn new technologies to put them into practice in
+							my daily life, always aiming to deliver with quality and
+							excellence. I face problems and difficulties in a positive way so
+							that I can acquire more and more knowledge and evolve in my
+							career.
 						</p>
 					</div>
 				</div>
