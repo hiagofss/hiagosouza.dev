@@ -1,13 +1,14 @@
-import Head from 'next/head';
 import About from '../components/About';
 import Header from '../components/Header';
 
-export default function Home() {
+export default function Blog() {
 	return (
-		<div className='space-y-14 lg:space-y-24'>
-			<Header title='About - Hiago Souza' />
+		<div>
+			<Header title='Blog - Hiago Souza' />
 			<main className='max-w-4xl mx-auto mt-16 antialiased'>
-				<About />
+				<div className='container px-4 mx-auto'>
+					<h1>Blog</h1>
+				</div>
 			</main>
 		</div>
 	);
