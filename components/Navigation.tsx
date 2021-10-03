@@ -1,6 +1,8 @@
 import Link from 'next/link';
+
 import navLinks from '../data/navLinks';
 import ThemeSwitch from './ThemeSwitch';
+import siteMetadata from '../data/siteMetadata';
 
 const Navigation = () => {
 	return (
@@ -8,7 +10,7 @@ const Navigation = () => {
 			<div className='container px-4 mx-auto lg:max-w-4xl flex items-center justify-between'>
 				<Link href='/'>
 					<a className='font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white'>
-						Hiago Souza
+						{siteMetadata.title}
 					</a>
 				</Link>
 
