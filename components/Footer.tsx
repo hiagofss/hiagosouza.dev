@@ -10,14 +10,6 @@ const Footer = () => {
 					</p>
 					<div className='flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0'>
 						<a
-							href='https://twitter.com/hiagofss'
-							className='transition-colors hover:text-red-500'
-							target='_blank'
-							rel='noreferrer'
-						>
-							Twitter
-						</a>
-						<a
 							href='https://www.instagram.com/hiagofss98'
 							className='transition-colors hover:text-red-500'
 							target='_blank'
