@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 			<ThemeProvider attribute='class' enableSystem={false}>
 				<Navigation />
 				<Component {...pageProps} />
-				<Footer />
+				{/* <Footer /> */}
 			</ThemeProvider>
 		</>
 	);
