@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import navLinks from '../data/navLinks';
 import ThemeSwitch from './ThemeSwitch';
 
 const Navigation = () => {
@@ -12,16 +13,14 @@ const Navigation = () => {
 				</Link>
 
 				<div className='flex items-center'>
-					<Link href='/blog'>
-						<a className='px-3 font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white'>
-							Blog
-						</a>
-					</Link>
-					<Link href='/'>
-						<a className='px-3 font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white'>
-							About
-						</a>
-					</Link>
+					{navLinks.map((link) => (
+						<Link href={link.href}>
+							<a className='px-3 font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white'>
+								{link.title}
+							</a>
+						</Link>
+					))}
+
 					<ThemeSwitch />
 				</div>
 			</div>
