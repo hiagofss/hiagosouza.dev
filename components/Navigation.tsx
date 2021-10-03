@@ -11,6 +11,12 @@ const Navigation = () => {
 					</a>
 				</Link>
 
+				<Link href='/blog'>
+					<a className='font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white'>
+						Blog
+					</a>
+				</Link>
+
 				<ThemeSwitch />
 			</div>
 		</div>
