@@ -1,7 +1,14 @@
 {
   "site_title": "Hiago Souza",
   "site_description": "Built with Next.js, Tailwind CSS, and TypeScript. Deployed in the Vercel.",
-  "github_account": "hiagofss",
+  "github_account": "https://github.com/hiagofss",
   "base_url": "hiagosouza.dev",
-  "twitter_account": "hiagofss"
+  "twitter_account": "https://twitter.com/hiagofss",
+  "instagram_account": "https://www.instagram.com/hiagofss98",
+  "linkedin_account": "https://www.linkedin.com/in/hiagof-souza",
+  "site_keywords": [
+    "dev",
+    "next",
+    "nodejs"
+  ]
 }
